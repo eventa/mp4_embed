@@ -16,12 +16,16 @@
 		<!-- Backbrace was developed specifically to help with Backbone structures arranged like ours -->
 		<script src="javascripts/backbrace/backbrace.js"></script>
 		
-		<script type="text/javascript" src="javascripts/application.js"></script>
+		<script type="text/javascript" src="javascripts/embed.js"></script>
 		<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css" />	
+		
+		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+		<script src="http://vjs.zencdn.net/c/video.js"></script>
 	</head>
 	<body>
-		<div class="container">
 
-		</div>
+		<video id="video" class="video-js vjs-default-skin" controls width="640" height="264"preload="auto" data-setup="{}">
+		</video>
+
 	</body>
 </html>
