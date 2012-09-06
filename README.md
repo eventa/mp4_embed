@@ -3,7 +3,7 @@ Fork me!
 
 I'm just a helpful way to get started writing your first bitTorrent web app using [btapp.js](https://github.com/bittorrenttorque/btapp)
 
-    git clone git://github.com/bittorrenttorque/template.git
+    git clone git://github.com/pwmckenna/mp4_embed.git
     cd template
     git submodule init
     git submodule update
